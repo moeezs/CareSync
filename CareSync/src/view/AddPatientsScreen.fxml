@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: ALICEBLUE;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddPatientsController">
+    <children>
+        <Label fx:id="genderQuestionLabel" layoutX="316.0" layoutY="146.0" text="Question Placeholder">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+        <TextField fx:id="nameField" layoutX="136.0" layoutY="88.0" prefHeight="44.0" prefWidth="142.0" promptText="Name">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+        <TextField fx:id="ageField" layoutX="136.0" layoutY="137.0" prefHeight="44.0" prefWidth="142.0" promptText="Age">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+        <ChoiceBox fx:id="genderChoiceBox" layoutX="401.0" layoutY="88.0" prefHeight="44.0" prefWidth="142.0" style="-fx-background-color: lightblue;" />
+        <TextField fx:id="weightField" layoutX="136.0" layoutY="183.0" prefHeight="44.0" prefWidth="142.0" promptText="Weight">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+        <TextField fx:id="diagnosisField" layoutX="25.0" layoutY="237.0" prefHeight="75.0" prefWidth="554.0" promptText="Diagnosis">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+        <ChoiceBox fx:id="additionalQuestionChoiceBox" layoutX="401.0" layoutY="178.0" prefHeight="44.0" prefWidth="142.0" style="-fx-background-color: lightblue;" />
+        <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToHomeScreen" style="-fx-background-color: lightblue;" text="Go Back" />
+        <Button fx:id="addPatientButton" layoutX="23.0" layoutY="324.0" mnemonicParsing="false" onAction="#addPatient" prefHeight="56.0" prefWidth="554.0" style="-fx-background-color: LIGHTBLUE;" text="Add Patient">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font></Button>
+      <Label layoutX="136.0" layoutY="23.0" text="Enter Patient's Details">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="193.0" prefHeight="24.0" prefWidth="95.0" text="Weight (kg)">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="146.0" prefHeight="24.0" prefWidth="33.0" text="Age">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="98.0" prefHeight="24.0" prefWidth="50.0" text="Name">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="315.0" layoutY="98.0" prefHeight="24.0" prefWidth="65.0" text="Gender">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+My field was Medical and I created a Patient Recording System
+
+It does 3 things in the software which will be prompted to you when you first open it
+
+First one is the ability to view the patients' details
+	You will be given 2 tables in this page, one for male patients and one for female patients
+	In both lists, you can click on any Patient's name and a small window will pop-up which will provide all of the data recorded for that specific patient
+	
+Second thing is that it allows you to add a new patient in the local database
+	You will be prompted with a bunch of fields, where you will input the corresponding data with the patient
+	After clicking add patient, all that data will be stored locally in a .txt file in that patient's directory
+	
+The last thing will let you remove any of the patients currently stored in the database
+	It will give you a similar screen as the 'ViewPatients' screen
+	Instead of giving you the details when you click on the specific patient, it will remove that patient from the database 
