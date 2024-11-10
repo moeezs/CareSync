@@ -23,7 +23,7 @@
          </font></Button>
       <ImageView fitHeight="227.0" fitWidth="333.0" layoutX="227.0" layoutY="20.0">
          <image>
-            <Image url="@../../../../../Downloads/Screenshot__1___1_-removebg-preview.png" />
+            <Image url="@../logo/logo.png" />
          </image>
       </ImageView>
       <Label layoutX="46.0" layoutY="43.0" prefHeight="112.0" prefWidth="185.0" text="Welcome">
